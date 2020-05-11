@@ -1,0 +1,45 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --Black: rgb(0, 0, 0);
+        --DarkGrey: rgb(44, 44, 46);
+        --White: rgb(242, 242, 247);
+        --LightGrey: rgb(224, 224, 224);
+        --LightGreyText: rgb(142, 142, 147);
+
+        --BlackAlpha: rgba(0, 0, 0, 0.7);
+        --DarkGreyAlpha: rgba(28, 28, 30, 0.7);
+        --LightGreyAlpha: rgba(224, 224, 224, 0.7);
+
+        --TileBackground: rgb(28, 28, 30);
+        --Shadow: rgb(0, 0, 0);
+
+        --Blue: #0080ff;
+        --BlueAlpha: rgba(0, 128, 255, 0.7);
+    }
+    .NavBar-IconPictureInactif {
+        filter: invert(0%) sepia(2%) saturate(7080%) hue-rotate(8deg) brightness(78%) contrast(75%) opacity(70%);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --Black: rgb(255, 255, 255);
+        --DarkGrey: rgb(229, 229, 234);
+        --White: rgb(0, 0, 0);
+        --LightGrey: rgb(32, 32, 32);
+        --LightGreyText: rgb(142, 142, 147);
+
+        --BlackAlpha: rgba(255, 255, 255, 0.7);
+        --DarkGreyAlpha: rgba(255, 255, 255, 0.7);
+        --LightGreyAlpha: rgba(32, 32, 32, 0.7);
+
+        --TileBackground: rgb(255, 255, 255);
+        --Shadow: rgb(224, 224, 224);
+
+        --Blue: rgb(0, 128, 255);
+        --BlueAlpha: rgba(0, 128, 255, 0.7);
+    }
+    .NavBar-IconPictureInactif {
+        filter: invert(92%) sepia(13%) saturate(4%) hue-rotate(351deg) brightness(97%) contrast(90%) opacity(70%);
+    }
+}

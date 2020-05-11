@@ -1,0 +1,20 @@
+.HeaderBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--BlackAlpha);
+    -webkit-backdrop-filter: saturate(1.8) blur(20px);
+    backdrop-filter: saturate(1.8) blur(20px);
+    border-bottom: 1px solid var(--DarkGrey);
+    z-index: 0;
+    display: flex;
+}
+
+.HeaderBar-PageEnCours {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 19.2px;
+    font-weight: 600;
+    color: var(--White);
+}

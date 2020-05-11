@@ -1,0 +1,58 @@
+@media only screen and (max-width: 767px) {
+    .Vignette {
+        width: 100%;
+        margin: 2.5% 5%;
+    }
+    .noResponsive {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Vignette {
+        width: 45%;
+        margin: 1%;
+    }
+    .Collection-Inside {
+        margin: 0%;
+    }
+    .noResponsive {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: var(--Black);
+        color: var(--LightGrey);
+        text-align: center;
+        z-index: 3;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .Vignette {
+        width: 30%;
+        margin: 1%;
+    }
+    .Collection-Inside {
+        margin: 0%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+    body {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+    .Vignette {
+        width: 100%;
+        margin: 2.5% 5%;
+    }
+}

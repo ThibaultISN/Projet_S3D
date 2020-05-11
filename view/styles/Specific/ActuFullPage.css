@@ -1,0 +1,44 @@
+.ActuFullPage-ViewPort {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin: 0;
+    /*padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);*/
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    background-color: var(--TileBackground);
+}
+
+.ActuFullPage-Image {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.ActuFullPage-Text {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ActuFullPage-Titre {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--White);
+}
+
+.ActuFullPage-Date {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--LightGreyText);
+}
+
+.ActuFullPage-Texte {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--LightGreyText);
+}
