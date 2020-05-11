@@ -19,6 +19,7 @@
   - [x] Affichage de la listes actualites brut
   - [ ] Ajout de JQuery dans l'affichage des actualites
   - [ ] Sous-page d'actualite
+  - [ ] Edition et ajout d'actualité *(Dépendant de la **Gestion des sessions**)*
 
 - [ ] **Boutique :**
   - [ ] Affichage des produits
