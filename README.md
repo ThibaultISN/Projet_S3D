@@ -17,9 +17,9 @@
 ## Roadmap :
 - [ ] **Actualites :**
   - [x] Affichage de la listes actualites brut
-  - [ ] Ajout de JQuery dans l'affichage des actualites
-  - [ ] Sous-page d'actualite
-  - [ ] Edition et ajout d'actualité *(Dépendant de la **Gestion des sessions**)*
+  - [ ] Ajout de Vue.js dans l'affichage des actualites
+  - [X] Sous-page d'actualite
+  - [X] Edition et ajout d'actualité *[ ](Dépendant de la **Gestion des sessions**)*
 
 - [ ] **Boutique :**
   - [ ] Affichage des produits
