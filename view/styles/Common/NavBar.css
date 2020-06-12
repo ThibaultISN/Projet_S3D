@@ -5,9 +5,9 @@
     margin: 0;
     padding-bottom: env(safe-area-inset-bottom);
     width: 100%;
-    background-color: var(--DarkGreyAlpha);
-    -webkit-backdrop-filter: saturate(300%) blur(20px);
-    backdrop-filter: saturate(300%) blur(20px);
+    background-color: var(--BlackAlpha);
+    -webkit-backdrop-filter: saturate(1.8) blur(20px);
+    backdrop-filter: saturate(1.8) blur(20px);
     z-index: 1;
     display: flex;
     justify-content: space-around;
@@ -23,7 +23,7 @@
 .NavBar-IconPictureActif {
     width: 30px;
     height: 30px;
-    filter: invert(38%) sepia(73%) saturate(4590%) hue-rotate(197deg) brightness(103%) contrast(109%) opacity(70%);
+    filter: invert(34%) sepia(87%) saturate(3493%) hue-rotate(198deg) brightness(104%) contrast(103%);
 }
 
 .NavBar-IconPictureInactif {
@@ -33,12 +33,12 @@
 
 .NavBar-IconNameActif {
     font-size: 10px;
-    font-weight: 400;
+    font-weight: normal;
     color: var(--BlueAlpha);
 }
 
 .NavBar-IconNameInactif {
     font-size: 10px;
-    font-weight: 400;
+    font-weight: normal;
     color: var(--LightGreyAlpha);
 }

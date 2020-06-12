@@ -1,0 +1,109 @@
+.EditActualite-Form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: var(--TileBackground);
+    width: 100%;
+}
+
+.EditActualite-TopForm {
+    position: absolute;
+    top: env(safe-area-inset-top);
+    left: 0;
+    overflow: hidden;
+    background-color: var(--TileBackground);
+    width: 100%;
+}
+
+.EditActualite-ImgDiv {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+
+#EditActualite-Img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.EditActualite-FileInputButtonZone {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.EditActualite-FileInputButton {
+    border-radius: 20px;
+    background-color: var(--Black);
+    backdrop-filter: saturate(300%) blur(20px);
+    padding: 0 10px;
+}
+
+.EditActualite-FileInput {
+    display: none;
+}
+
+.EditActualite-TextDiv {
+    position: relative;
+    padding: 0 20px;
+    height: 70%;
+}
+
+.EditActualite-Titre {
+    font-size: 30px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--White);
+    width: 100%;
+    padding: none;
+    font-weight: bold;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--White);
+}
+
+textarea {
+    font-weight: normal;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    overflow: auto;
+    color: var(--LightGreyText);
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+.EditActualite-SubmitZone {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: env(safe-area-inset-bottom);
+}
+
+.EditActualite-Submit {
+    outline: none;
+    border: none;
+    width: auto;
+    padding: 0.5em 1em;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: var(--Blue);
+    box-shadow: 0 10px 20px var(--Shadow);
+    color: white;
+}

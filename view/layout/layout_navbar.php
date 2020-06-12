@@ -1,21 +1,20 @@
-<head>
-    <link rel="stylesheet" href="/view/styles/Common/NavBar.css">
-</head>
-<nav class="Navbar">
-    <a class="NavBar-Icon" href="Actu-List.html">
-        <img class="NavBar-IconPictureActif" src="/data/icons/Actu.svg">
-        <span class="NavBar-IconNameActif">Actualités</span>
+<link rel="stylesheet" href="/view/styles/Common/NavBar.css"/>
+
+<nav class="NavBar">
+    <a class="NavBar-Icon" href="<?= $Actualite ?>">
+        <img class="NavBar-IconPictureInactif" src="<?= $iconPath ?>Actu.svg"/>
+        <span class="NavBar-IconNameInactif">Actualités</span>
     </a>
     <a class="NavBar-Icon" href="#">
-        <img class="NavBar-IconPictureInactif" src="/data/icons/Calendrier.svg">
+        <img class="NavBar-IconPictureInactif" src="<?= $iconPath ?>Calendrier.svg"/>
         <span class="NavBar-IconNameInactif">Calendrier</span>
     </a>
-    <a class="NavBar-Icon" href="#">
-        <img class="NavBar-IconPictureInactif" src="/data/icons/Boutique.svg">
+    <a class="NavBar-Icon" href="<?= $Boutique ?>">
+        <img class="NavBar-IconPictureInactif" src="<?= $iconPath ?>Boutique.svg"/>
         <span class="NavBar-IconNameInactif">Boutique</span>
     </a>
     <a class="NavBar-Icon" href="#">
-        <img class="NavBar-IconPictureInactif" src="/data/icons/Compte.svg">
+        <img class="NavBar-IconPictureInactif" src="<?= $iconPath ?>Compte.svg"/>
         <span class="NavBar-IconNameInactif">Compte</span>
     </a>
 </nav>

@@ -1,7 +1,9 @@
 .Actu {
     margin: 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
+    border: none;
     background-color: var(--TileBackground);
     box-shadow: 0 10px 20px var(--Shadow);
     border-radius: 20px;
@@ -9,6 +11,7 @@
 
 .Actu-Image {
     width: 100%;
+    height: 100vw;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
@@ -16,13 +19,14 @@
 .Actu-Text {
     margin: 20px;
     display: flex;
+    text-align: left;
     flex-direction: column;
 }
 
 .Actu-Date {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    color: var(--LightGreyText);
+    color: var(--Blue);
 }
 
 .Actu-Titre {
@@ -31,8 +35,21 @@
     color: var(--White);
 }
 
-.Actu-Description {
-    font-size: 15px;
-    font-weight: normal;
-    color: var(--LightGreyText);
+.Actu-DeleteForm {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Actu-Delete {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 0.5em;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--Red);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 10px 10px var(--Shadow);
 }

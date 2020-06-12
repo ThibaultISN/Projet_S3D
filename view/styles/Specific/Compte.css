@@ -1,0 +1,58 @@
+.Compte-Liste {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Compte-ButtonMain {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 66%;
+    margin-bottom: 20px;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background-color: var(--Blue);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 10px var(--Shadow);
+}
+
+.Compte-ButtonSecondaire {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    color: var(--White);
+}
+
+.Compte-Deconnexion {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 66%;
+    margin-bottom: 20px;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background-color: var(--Red);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 10px 10px var(--Shadow);
+}
+
+.Compte-User {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    background-color: var(--TileBackground);
+    color: var(--White);
+    box-shadow: 0 10px 10px var(--Shadow);
+}
